@@ -1,0 +1,134 @@
+/*global syntax*/
+/*global css */
+body {
+  font-size: 15px;
+  font-weight: 300; }
+
+a, textarea, .btn, button {
+  transition: all 0.5s ease 0s; }
+
+* {
+  outline: none !important; }
+
+.btn-default {
+  background-color: #EFC70F;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: mdp;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px; }
+
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.35);
+  background-color: #d4af07;
+  color: #fff; }
+
+.section {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 85px 0;
+  position: relative; }
+
+.section-heading {
+  margin-bottom: 70px; }
+
+.section-heading h2 {
+  font-size: 35px;
+  font-weight: 300; }
+
+.section-heading h2::after {
+  background: #EFC70F;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 10px auto 25px;
+  width: 120px; }
+
+.white-text {
+  color: #fff; }
+
+.form-control {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #efefef;
+  box-shadow: none;
+  color: #ffffff;
+  height: 50px; }
+
+.form-control:focus {
+  background: #d4af07;
+  border-color: #d4af07;
+  box-shadow: none;
+  outline: 0 none; }
+
+.slider .carousel-control {
+  background: #d4af07; }
+
+.slider .carousel-control:hover {
+  background: #EFC70F; }
+
+.video-thumb::after {
+  color: #EFC70F; }
+
+.works-icon {
+  color: #EFC70F;
+  font-size: 45px; }
+
+/*featured  css */
+.feature-icon {
+  background: #EFC70F; }
+
+/*costing css */
+.costing-figure .price {
+  color: #EFC70F; }
+
+#faq a {
+  color: #EFC70F; }
+
+#subscribe {
+  background: #EFC70F; }
+
+#subscribe .btn-default {
+  background: #d4af07; }
+
+#subscribe .btn-default:hover {
+  background: #fff;
+  color: #666; }
+
+.social-widget li a {
+  background: #EFC70F; }
+
+.social-widget li a:hover {
+  background: #d4af07;
+  color: white; }
+
+.footer a:hover {
+  color: #EFC70F; }
+
+#testimonials .class-name {
+  color: #EFC70F; }
+
+#testimonials .owl-theme .owl-controls .owl-page span {
+  background: #EFC70F; }
+
+.overlay-content li a:hover {
+  color: #EFC70F; }
+
+.costing-figure:hover, .costing-figure.active {
+  border-color: #EFC70F; }
+
+header.sticky {
+  background: #EFC70F; }
+
+.footer {
+  background: 222222; }
+
+/*ipad*/
+@media screen and (max-width: 1023px) {
+  header {
+    background-color: #EFC70F; } }
+
+/*# sourceMappingURL=custom-style.css.map */

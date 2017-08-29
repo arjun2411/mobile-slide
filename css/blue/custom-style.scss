@@ -1,0 +1,78 @@
+
+/*global syntax*/
+
+$primary-color: #02dbe3;
+$secondry-color: #02b0b6;
+
+$body-font: 15px;
+$white: #fff;
+$smp: 13px;
+$mdp: 14px;
+$ldp: 16px;
+$rnd-border: 40px;
+$fade: all .5s ease 0s;
+/*global css */
+
+body {
+
+font-size: $body-font; font-weight: 300; }
+a, textarea, .btn, button { transition:$fade;
+}
+* { outline: none !important; }
+.btn-default {
+background-color:$primary-color; color: #fff; text-transform: uppercase; text-align: center; font-size: mdp; border: none; border-radius:$rnd-border;
+padding: 10px 20px; }
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default { box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.35); background-color: $secondry-color;
+color: #fff; }
+.section { background-attachment: fixed; background-position: center center; background-size: cover; overflow: hidden; padding: 85px 0; position: relative; }
+.section-heading { margin-bottom: 70px; }
+.section-heading h2 { font-size: 35px; font-weight: 300; }
+.section-heading h2::after {
+ background: $primary-color; content: ""; display: block; height: 3px; margin: 10px auto 25px; width: 120px; }
+.white-text { color: #fff; }
+.form-control { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: 2px solid #efefef; box-shadow: none; color: #ffffff; height: 50px; }
+.form-control:focus {
+ background: $secondry-color;
+ border-color: $secondry-color; box-shadow: none; outline: 0 none; }
+.slider .carousel-control {  background: $secondry-color;
+}
+.slider .carousel-control:hover {  background: $primary-color;
+}
+.video-thumb::after {  color:$primary-color;
+}
+.works-icon {
+ color: $primary-color; font-size: 45px; }
+/*featured  css */
+.feature-icon { background: $primary-color;
+}
+/*costing css */
+.costing-figure .price { color: $primary-color;
+}
+#faq a { color: $primary-color;
+}
+#subscribe { background: $primary-color;
+}
+#subscribe .btn-default { background:$secondry-color;
+}
+#subscribe .btn-default:hover { background: #fff; color: #666; }
+.social-widget li a { background: $primary-color;
+}
+.social-widget li a:hover {
+background: $secondry-color; color: white; }
+.footer a:hover { color: $primary-color;
+}
+#testimonials .class-name { color:$primary-color;
+}
+#testimonials .owl-theme .owl-controls .owl-page span { background: $primary-color;
+}
+.overlay-content li a:hover {  color: $primary-color;
+}
+
+
+.costing-figure:hover, .costing-figure.active {  border-color:$primary-color;}
+
+/*ipad*/
+ @media screen and (max-width:1023px) {
+	header { background-color: $primary-color; }
+	
+}
